@@ -13,6 +13,12 @@ public class MajorClient extends Client{
 		
 	}
 
+	/**
+	 * Aplica un descuento
+	 * @param discount
+	 * @param purchaseValue
+	 * @return
+	 */
 	@Override
 	public double apllyDiscount(int discount,double purchaseValue) {
 		//varia
